@@ -1,0 +1,55 @@
+body{background-image: url(../pictures/back.png);}
+td{text-align: center;}
+DIV {padding: 10px;}
+.header {
+    font-family: monospace;
+    font-size: 30px;
+    color: #000;
+    text-align: center;
+}
+@media (min-width: 500px){
+    .layout {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+.realBox{
+    background: #D3D3D3;
+    border: 8px solid #999999;
+    border-radius: 15px;
+}
+.layout > DIV {
+    margin: 0.35%;
+    padding: 0px;
+}
+.col1 {
+    background: transparent;
+    border: 0px;
+}
+#col2row2{
+    margin-top: 3%;
+}
+.col2{
+    width: 450px;
+}
+.col3{
+    width: 336px;
+}
+#fdgvbnhjmk{
+    text-align: center;
+}
+#canvas{
+    width: 350px;
+    height: 350px;
+    border: 3px solid #000000;
+    margin: 20px;
+    padding: 0px;
+}
+p {
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    display: inline;
+    text-align: center;
+}
